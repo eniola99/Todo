@@ -2,7 +2,7 @@ const mongoose = require('mongoose')
 
 const todoSchema = new mongoose.Schema(
     {
-        NewTask: String,
+        newTask: String,
         description: String,
     }
 )
