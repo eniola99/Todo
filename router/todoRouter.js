@@ -6,7 +6,6 @@ const router = express.Router()
 
 router.post('/register', async (req, res) => {
     todos = new todo({
-        newTask: req.body.newTask,
         description: req.body.description
     })
     try {
